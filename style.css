@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #002947;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    margin: auto;
+    padding: 16px;
+    max-width: 425px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+#title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+}
+#title span {
+    color: #E47C29;
+    font-style: italic;
+}
+nav > p{
+    padding: 10px;
+    background: #024B5C;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.session {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 16px auto;
+}
+.session div {
+    display: flex;
+    font-size: 12px;
+}
+.logo--circle {
+    background-color: white;
+    margin: auto 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.logo--circle img {
+    width: 25px;
+    margin: auto;
+}
+#versus{
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    padding: 5px;
+    background: #024B5C;
+    border-radius: 50%;
+    position: relative;
+}
+#line {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: -80%;
+    width: 60px;
+    border: 1px solid #024B5C;
+    z-index: -10;
+    align-items: center;
+}
+
+.teams {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #024B5C;
+    border-radius: 4px;
+    padding: 16px;
+}
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.player{
+    width: 46px;
+    height: 53px;
+    background: #002947;
+    border-radius: 5px;
+}
+.team_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team_info div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.team-title {
+    margin: auto 10px;
+}
+.team-shortcut{
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background: #82ABFA;
+    border: 1px solid #3D65B3;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+}
+.green-bg{
+    background: #024B5C;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 13px;
+}
+.green-bg span {
+    font-weight: 700;
+font-size: 16px;
+line-height: 17px;
+}
+
+.choose {
+    background: #2A711F;
+    padding: 16px;
+    margin: 12px auto;
+}
+.choose > p {
+    text-align: center;
+    margin-top: 0px;
+}
+.choose > div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: white;
+    width: 104px;
+    height: 139px;
+    border-radius: 6px;
+    position: relative;
+}
+.shadow-mask {
+    z-index: 1;
+    position: absolute;
+    width: 104px;
+    height: 139px;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    box-shadow: inset 0px -40px 25px white;
+}
+.card > img {
+    margin: auto;
+    display: block;
+}
+.logo--square {
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    margin: 6px;
+    width: 20px;
+    border: 0.25px solid #D9D9D9;
+}
+.logo--square img {
+    height: 9px;
+    margin: 1.5px auto;
+    display: block;
+}
+
+.card--text {
+    z-index: 10;
+    position: absolute;
+    bottom: 0px;
+    left: 6px;
+    color: #002947;
+    font-size: 12px;
+}
+.card--text > :first-child {
+    margin: 0px;
+}
+.card--text > :first-child span {
+    font-weight: 700;
+}
+.card--text > :last-child {
+    background: #024B5C;
+    border-radius: 14px;
+    color: white;
+    font-size: 8px;
+    padding: 1px 10px;
+    margin: 4px auto 6px;
+}
+
+.timer-bg {
+    width: 87px;
+margin-bottom: 20px;
+background-color: hsla(27, 51%, 62%, 0.5);
+}
+.timer-bg img{
+    margin: 10px auto;
+    display: block;
+}
+body > p{
+    font-size: 12px;
+    text-align: center;
+    margin: 27px auto;
+    width: 70%;
+    font-weight: 500;
+    opacity: 0.6;
+}
